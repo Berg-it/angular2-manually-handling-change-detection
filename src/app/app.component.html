@@ -1,0 +1,14 @@
+<h1>Change Detection (Manual)</h1>
+
+<div>
+	<h2>Manual Change Detection</h2>
+
+	<button (click)="start()">start</button>
+  <button (click)="stop()">stop</button>
+  <button (click)="toggleCD()">toggle CD</button>
+  
+  <hr>
+  
+  <app-counter [data]="data$" [notifier]="notifier$"></app-counter>
+  
+</div>
